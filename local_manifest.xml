@@ -24,5 +24,8 @@
 <!-- framework_base-->
  <remove-project name="android_frameworks_base" />
  <project path="frameworks/base" name="israfilbd/frameworks_base_matrix" remote="ghub" revision="14.0" clone-depth="1" />
-	l
+
+<!-- sign_keys -->
+ <project path="vendor/lineage-priv" name="ij-israfil/sign_keys" remote="ghub" revision="matrix" />
+	
 </manifest>
