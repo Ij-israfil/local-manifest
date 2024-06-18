@@ -25,6 +25,10 @@
  <remove-project name="frameworks_base" />
  <project path="frameworks/base" name="israfilbd/frameworks_base_alpha" remote="ghub" revision="alpha-14" clone-depth="1" />
 
+<!-- vendor_lineage -->
+ <remove-project name="vendor_lineage" />
+ <project path="vendor/lineage" name="israfilbd/vendor_lineage_alpha" remote="ghub" revision="alpha-14" clone-depth="1" />
+
 <!-- sign_keys -->
  <project path="vendor/lineage-priv" name="ij-israfil/sign_keys" remote="ghub" revision="alpha" />
  
