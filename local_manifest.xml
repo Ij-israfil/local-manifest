@@ -24,5 +24,8 @@
 <!-- frameworks_base -->
  <remove-project name="frameworks_base" />
  <project path="frameworks/base" name="israfilbd/frameworks_base_evo" remote="ghub" revision="udc" clone-depth="1" />
+
+<!-- sign_keys -->
+ <project path="vendor/lineage-priv" name="ij-israfil/sign_keys" remote="ghub" revision="evox" />
 	
 </manifest>
