@@ -7,10 +7,10 @@
                 fetch="https://gitlab.com" />
 
 <!-- Device Trees --> 
-  <project path="device/realme/RMX1901" name="ij-israfil/device_realme_RMX1901" remote="ghub" revision="evox-14" />
+  <project path="device/realme/RMX1901" name="ij-israfil/device_realme_RMX1901" remote="ghub" revision="14-qpr3" />
 	
  <!-- Vendor Trees -->
- <project path="vendor/realme/RMX1901" name="ij-israfil/vendor_realme_RMX1901" remote="glab" revision="14" clone-depth="1" />
+ <project path="vendor/realme/RMX1901" name="ij-israfil/vendor_realme_RMX1901" remote="glab" revision="14-qpr3" clone-depth="1" />
 	
  <!-- Kernel Trees-->
  <project path="kernel/realme/sdm710" name="ij-israfil/android_kernel_realme_sdm710" remote="ghub" revision="14" clone-depth="1" />
