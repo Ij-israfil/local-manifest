@@ -3,25 +3,29 @@
         <remote  name="ghub"
                 fetch="https://github.com" />
 
-	<remote name="caf"
-                fetch="https://github.com/AOSPA" />
-	
+	<remote  name="glab"
+                fetch="https://gitlab.com" />
+
 <!-- Device Trees --> 
-  <project path="device/realme/RMX1901" name="ij-israfil/device_realme_RMX1901" remote="ghub" revision="aospa" />
+  <project path="device/realme/RMX1901" name="ij-israfil/device_realme_RMX1901" remote="ghub" revision="pixelp-14" />
 	
  <!-- Vendor Trees -->
- <project path="vendor/realme/RMX1901" name="ij-israfil/vendor_realme_RMX1901" remote="ghub" revision="13" />
+ <project path="vendor/realme/RMX1901" name="ij-israfil/vendor_realme_RMX1901" remote="glab" revision="14-qpr3" clone-depth="1" />
 	
  <!-- Kernel Trees-->
- <project path="kernel/realme/RMX1901" name="ij-israfil/kernel_realme_RMX1901" remote="ghub" revision="aospa" />
+ <project path="kernel/realme/sdm710" name="ij-israfil/android_kernel_realme_sdm710" remote="ghub" revision="14" clone-depth="1" />
 
-<!-- Framework AOSPA -->
- <remove-project name="AOSPA/android_frameworks_base" />
- <project path="frameworks/base" name="israfilbd/frameworks_base_aospa" remote="ghub" revision="topaz" />
+<!-- Viper4android -->
+ <project path="packages/apps/ViPER4AndroidFX" name="ij-israfil/packages_apps_ViPER4AndroidFX" remote="ghub" revision="v4a" />
 
-<!-- Hals -->
-   <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="android_hardware_qcom_audio" remote="caf" revision="topaz-845" />
-   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="caf" revision="topaz-845" />
-   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="caf" revision="topaz-845" />
+ <!-- Proton clang -->
+ <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="ghub" revision="master" clone-depth="1" />
 
+<!-- frameworks_base -->
+ <remove-project name="frameworks_base" />
+ <project path="frameworks/base" name="israfilbd/frameworks_base_pixel" remote="ghub" revision="fourteen-qpr3" clone-depth="1" />
+
+<!-- sign_keys -->
+ <project path="vendor/aosp-sign" name="ij-israfil/sign_keys" remote="ghub" revision="pixel" />
+ 
 </manifest>
