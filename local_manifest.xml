@@ -25,10 +25,6 @@
  <remove-project name="frameworks_base" />
  <project path="frameworks/base" name="israfilbd/frameworks_base_pixel" remote="ghub" revision="fourteen-qpr3" clone-depth="1" />
 
-<!-- hardware_interfaces -->
- <remove-project name="hardware_interfaces" />
- <project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" remote="ghub" revision="lineage-21.0" clone-depth="1" />
-	
 <!-- sign_keys -->
  <project path="vendor/aosp-sign" name="ij-israfil/sign_keys" remote="ghub" revision="pixel" />
  
