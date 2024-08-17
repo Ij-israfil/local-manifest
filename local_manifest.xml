@@ -30,6 +30,6 @@
  <project path="packages/apps/Settings" name="israfilbd/packages_apps_Settings" remote="ghub" revision="QPR3" clone-depth="1" />
  
 <!-- sign_keys -->
- <project path="vendor/lineage-priv" name="ij-israfil/sign_keys" remote="ghub" revision="pixel" />
+ <project path="vendor/aosp-sign" name="ij-israfil/sign_keys" remote="ghub" revision="pixel" />
 	
 </manifest>
