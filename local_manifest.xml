@@ -26,6 +26,6 @@
  <project path="frameworks/base" name="israfilbd/frameworks_base_afterlife" remote="ghub" revision="14" clone-depth="1" />
 
 <!-- sign_keys -->
- <project path="vendor/lineage-priv" name="ij-israfil/sign_keys" remote="ghub" revision="afterlife" />
+ <project path="vendor/lineage-priv" name="ij-israfil/sign_keys_bak" remote="ghub" revision="rising" />
  
 </manifest>
