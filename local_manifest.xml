@@ -21,6 +21,9 @@
  <!-- Proton clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="ghub" revision="master" clone-depth="1" />
 
+<!-- clang-r510928 -->
+ <project path="prebuilts/clang/host/linux-x86/clang-r510928" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r510928" remote="glab" revision="14.0" clone-depth="1" />
+
 <!-- frameworks_base -->
  <remove-project name="AfterlifeOS/frameworks_base" />
  <project path="frameworks/base" name="israfilbd/frameworks_base_afterlife" remote="ghub" revision="14" clone-depth="1" />
