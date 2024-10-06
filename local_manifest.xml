@@ -36,4 +36,8 @@
  <remove-project name="system_netd" />
  <project path="system/netd" name="ij-project/system_netd" remote="ghub" revision="fourteen-qpr3" />
 
+<!-- hardware_interfaces -->
+ <remove-project name="hardware_interfaces" />
+ <project path="hardware/interfaces" name="israfilbd/hardware_interfaces" remote="ghub" revision="fourteen-qpr3" clone-depth="1" />
+
 </manifest>
