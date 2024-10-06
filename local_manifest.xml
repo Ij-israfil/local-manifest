@@ -10,7 +10,7 @@
   <project path="device/realme/RMX1901" name="ij-israfil/device_realme_RMX1901" remote="ghub" revision="14" />
 	
  <!-- Vendor Trees -->
- <project path="vendor/realme/RMX1901" name="ij-israfil/vendor_realme_RMX1901" remote="glab" revision="14-qpr3" clone-depth="1" />
+ <project path="vendor/realme/RMX1901" name="ij-israfil/vendor_realme_RMX1901" remote="glab" revision="14" clone-depth="1" />
 	
  <!-- Kernel Trees-->
  <project path="kernel/realme/sdm710" name="ij-israfil/android_kernel_realme_sdm710" remote="ghub" revision="14" clone-depth="1" />
@@ -25,11 +25,15 @@
  <remove-project name="frameworks_base" />
  <project path="frameworks/base" name="israfilbd/frameworks_base_pixel" remote="ghub" revision="fourteen-qpr3" clone-depth="1" />
 
-<!-- hardware_interfaces -->
- <remove-project name="hardware_interfaces" />
- <project path="hardware/interfaces" name="israfilbd/hardware_interfaces" remote="ghub" revision="fourteen-qpr3" clone-depth="1" />
-
 <!-- sign_keys -->
  <project path="vendor/aosp-sign" name="ij-israfil/sign_keys" remote="ghub" revision="pixel" />
- 
+
+<!-- packages_modules_Connectivity -->
+ <remove-project name="packages_modules_Connectivity" />
+ <project path="packages/modules/Connectivity" name="ij-project/packages_modules_Connectivity" remote="ghub" revision="fourteen-qpr3" />
+
+<!-- system_netd -->
+ <remove-project name="system_netd" />
+ <project path="system/netd" name="ij-project/system_netd" remote="ghub" revision="fourteen-qpr3" />
+
 </manifest>
