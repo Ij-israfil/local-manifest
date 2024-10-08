@@ -26,6 +26,6 @@
  <project path="frameworks/base" name="israfilbd/frameworks_base_orion" remote="ghub" revision="14.0" clone-depth="1" />
 
 <!-- sign_keys -->
- <project path="vendor/lineage-priv" name="ij-israfil/sign_keys" remote="ghub" revision="orion" />
+ <project path="vendor/lineage-priv" name="ij-israfil/sign_keys_2" remote="ghub" revision="orion" />
  
 </manifest>
