@@ -21,6 +21,10 @@
  <!-- Proton clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="ghub" revision="master" clone-depth="1" />
 
+<!-- android_packages_modules_Connectivity -->
+ <remove-project name="android_packages_modules_Connectivity" />
+ <project path="packages/modules/Connectivity" name="DerpFest-AOSP/packages_modules_Connectivity" remote="ghub" revision="15" />
+
 <!-- sign_keys -->
  <project path="vendor/lineage-priv" name="ij-israfil/sign_keys" remote="ghub" revision="derp-15" />
  
