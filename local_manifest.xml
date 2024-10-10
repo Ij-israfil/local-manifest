@@ -27,7 +27,7 @@
 
 <!-- packages_apps_Settings -->
  <remove-project name="packages_apps_Settings" />
- <project path="packages/apps/Settings" name="ij-project/packages_apps_Settings_derp" remote="ghub" revision="15" />
+ <project path="packages/apps/Settings" name="ij-project/packages_apps_Settings_derp" remote="ghub" revision="15" clone-depth="1" />
 
 <!-- sign_keys -->
  <project path="vendor/lineage-priv" name="ij-israfil/sign_keys" remote="ghub" revision="derp" />
