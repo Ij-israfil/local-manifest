@@ -29,6 +29,10 @@
  <remove-project name="android_frameworks_base" />
  <project path="frameworks/base" name="ij-project/frameworks_base_pixelage" remote="ghub" revision="15" clone-depth="1" />
 
+<!-- android_packages_apps_Settings -->
+ <remove-project name="android_packages_apps_Settings" />
+ <project path="packages/apps/Settings" name="israfilbd/packages_apps_Settings_pixelage" remote="ghub" revision="15" clone-depth="1" />
+
 <!-- sign_keys -->
  <project path="vendor/lineage-priv" name="ij-israfil/sign_keys" remote="ghub" revision="derp-15" />
  
