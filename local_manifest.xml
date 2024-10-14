@@ -32,10 +32,6 @@
  <remove-project name="packages_modules_Connectivity" />
  <project path="packages/modules/Connectivity" name="ij-project/packages_modules_Connectivity" remote="ghub" revision="fourteen-qpr3" />
 
-<!-- system_netd -->
- <remove-project name="system_netd" />
- <project path="system/netd" name="ij-project/system_netd" remote="ghub" revision="fourteen-qpr3" />
-
 <!-- hardware_interfaces -->
  <remove-project name="hardware_interfaces" />
  <project path="hardware/interfaces" name="israfilbd/hardware_interfaces" remote="ghub" revision="fourteen-qpr3" clone-depth="1" />
