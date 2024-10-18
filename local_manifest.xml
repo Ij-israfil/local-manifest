@@ -30,6 +30,6 @@
  <project path="frameworks/base" name="ij-project/frameworks_base_pixelage" remote="ghub" revision="15" clone-depth="1" />
 
 <!-- sign_keys -->
- <project path="vendor/aosp-priv" name="ij-israfil/sign_keys" remote="ghub" revision="derp-15" />
+ <project path="vendor/lineage-priv" name="ij-israfil/sign_keys" remote="ghub" revision="derp-15" />
  
 </manifest>
