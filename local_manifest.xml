@@ -29,6 +29,10 @@
  <remove-project name="AfterlifeOS/vendor_afterlife" />
  <project path="vendor/afterlife" name="ij-project/vendor_afterlife" remote="ghub" revision="14" clone-depth="1" />
 
+<!-- platform/external/boringssl -->
+ <remove-project name="platform/external/boringssl" />
+ <project path="external/boringssl" name="AfterlifeOS/external_boringssl" remote="ghub" revision="14" clone-depth="1" />
+
 <!-- sign_keys -->
  <project path="vendor/lineage-priv" name="ij-israfil/sign_keys" remote="ghub" revision="rising" />
  
