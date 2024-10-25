@@ -38,6 +38,6 @@
  <project path="external/jemalloc_new" name="AfterlifeOS/external_jemalloc_new" remote="ghub" revision="14" clone-depth="1" />
 
 <!-- sign_keys -->
- <project path="vendor/aosp_sign" name="ij-israfil/sign_keys" remote="ghub" revision="pixel" />
+ <project path="vendor/aosp-sign" name="ij-israfil/sign_keys" remote="ghub" revision="pixel" />
  
 </manifest>
