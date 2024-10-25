@@ -33,10 +33,6 @@
  <remove-project name="platform/external/boringssl" />
  <project path="external/boringssl" name="AfterlifeOS/external_boringssl" remote="ghub" revision="14" clone-depth="1" />
 
-<!-- external_jemalloc_new -->
- <remove-project name="platform/external/jemalloc_new" />
- <project path="external/jemalloc_new" name="AfterlifeOS/external_jemalloc_new" remote="ghub" revision="14" clone-depth="1" />
-
 <!-- sign_keys -->
  <project path="vendor/aosp-sign" name="ij-israfil/sign_keys" remote="ghub" revision="pixel" />
  
