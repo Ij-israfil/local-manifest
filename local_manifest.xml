@@ -26,6 +26,6 @@
 
 <!-- packages_modules_Connectivity -->
  <remove-project name="packages_modules_Connectivity" />
- <project path="packages/modules/Connectivity" name="ij-project/packages_modules_Connectivity" remote="ghub" revision="fourteen-qpr3" />
+ <project path="packages/modules/Connectivity" name="ij-project/packages_modules_Connectivity_derp" remote="ghub" revision="14" />
 
 </manifest>
