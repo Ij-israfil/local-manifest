@@ -28,4 +28,8 @@
  <remove-project name="packages_modules_Connectivity" />
  <project path="packages/modules/Connectivity" name="ij-project/packages_modules_Connectivity_derp" remote="ghub" revision="14" />
 
+<!-- system_bpf -->
+ <remove-project name="system_bpf" />
+ <project path="system/bpf" name="DerpFest-AOSP/system_bpf" remote="ghub" revision="14" />
+
 </manifest>
