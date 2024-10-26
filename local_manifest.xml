@@ -33,7 +33,7 @@
  <project path="system/bpf" name="DerpFest-AOSP/system_bpf" remote="ghub" revision="14" />
 
 <!-- system_netd -->
- <remove-project name="system_bpf" />
+ <remove-project name="system_netd" />
  <project path="system/netd" name="DerpFest-AOSP/system_netd" remote="ghub" revision="14" />
 
 </manifest>
