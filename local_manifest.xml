@@ -21,23 +21,7 @@
  <!-- Proton clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="ghub" revision="master" clone-depth="1" />
 
-<!-- frameworks_base -->
- <remove-project name="frameworks_base" />
- <project path="frameworks/base" name="ij-project/frameworks_base_pixelstar" remote="ghub" revision="14-qpr3" clone-depth="1" />
-
 <!-- sign_keys -->
  <project path="vendor/aosp-sign" name="ij-israfil/sign_keys" remote="ghub" revision="pixel" />
-
-<!-- packages_modules_Connectivity -->
- <remove-project name="packages_modules_Connectivity" />
- <project path="packages/modules/Connectivity" name="ij-project/packages_modules_Connectivity_derp" remote="ghub" revision="14" />
-
-<!-- system_bpf -->
- <remove-project name="system_bpf" />
- <project path="system/bpf" name="DerpFest-AOSP/system_bpf" remote="ghub" revision="14" />
-
-<!-- system_netd -->
- <remove-project name="system_netd" />
- <project path="system/netd" name="DerpFest-AOSP/system_netd" remote="ghub" revision="14" />
 
 </manifest>
