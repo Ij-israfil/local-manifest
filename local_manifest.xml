@@ -24,4 +24,8 @@
 <!-- sign_keys -->
  <project path="vendor/aosp-sign" name="ij-israfil/sign_keys" remote="ghub" revision="pixel" />
 
+<!-- packages_modules_Connectivity -->
+ <remove-project name="packages_modules_Connectivity" />
+ <project path="packages/modules/Connectivity" name="PixelOS-AOSP/packages_modules_Connectivity" remote="ghub" revision="fourteen" />
+
 </manifest>
