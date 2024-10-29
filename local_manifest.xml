@@ -36,4 +36,8 @@
  <remove-project name="system_netd" />
  <project path="system/netd" name="kaderbava/android_system_netd" remote="ghub" revision="lineage-22.0" />
 
+<!-- kernel_configs -->
+ <remove-project name="kernel_configs" />
+ <project path="kernel/configs" name="DerpFest-AOSP/kernel_configs" remote="ghub" revision="14" />
+
 </manifest>
