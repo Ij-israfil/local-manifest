@@ -26,22 +26,18 @@
 
 <!-- packages_modules_Connectivity -->
  <remove-project name="packages_modules_Connectivity" />
- <project path="packages/modules/Connectivity" name="kaderbava/android_packages_modules_Connectivity" remote="ghub" revision="lineage-22.0" />
+ <project path="packages/modules/Connectivity" name="israfilbd/packages_modules_Connectivity" remote="ghub" revision="QPR3" />
 
 <!-- system_bpf -->
  <remove-project name="system_bpf" />
- <project path="system/bpf" name="Project-PixelStar/system_bpf" remote="ghub" revision="15" />
-
-<!-- system_netd -->
- <remove-project name="system_netd" />
- <project path="system/netd" name="kaderbava/android_system_netd" remote="ghub" revision="lineage-22.0" />
+ <project path="system/bpf" name="LineageOS/android_system_bpf" remote="ghub" revision="lineage-21.0" />
 
 <!-- kernel_configs -->
  <remove-project name="kernel_configs" />
- <project path="kernel/configs" name="DerpFest-AOSP/kernel_configs" remote="ghub" revision="14" />
+ <project path="kernel/configs" name="LineageOS/android_kernel_configs" remote="ghub" revision="lineage-21.0" />
 
 <!-- hardware_interfaces -->
  <remove-project name="hardware_interfaces" />
- <project path="hardware/interfaces" name="DerpFest-AOSP/hardware_interfaces" remote="ghub" revision="14" />
+ <project path="hardware/interfaces" name="ProjectInfinity-X/hardware_interfaces" remote="ghub" revision="QPR3" />
 
 </manifest>
