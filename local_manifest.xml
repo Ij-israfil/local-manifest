@@ -7,7 +7,7 @@
                 fetch="https://gitlab.com" />
 
 <!-- Device Trees --> 
-  <project path="device/realme/RMX1901" name="israfilbd/device_realme_RMX1901" remote="ghub" revision="pixelstar" />
+  <project path="device/realme/RMX1901" name="ij-project/device_realme_RMX1901" remote="ghub" revision="pixelstar" />
 	
  <!-- Vendor Trees -->
  <project path="vendor/realme/RMX1901" name="ij-israfil/vendor_realme_RMX1901" remote="glab" revision="14" clone-depth="1" />
