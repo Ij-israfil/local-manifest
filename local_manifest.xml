@@ -15,29 +15,11 @@
  <!-- Kernel Trees-->
  <project path="kernel/realme/sdm710" name="ij-israfil/android_kernel_realme_sdm710" remote="ghub" revision="14" clone-depth="1" />
 
-<!-- Viper4android -->
- <project path="packages/apps/ViPER4AndroidFX" name="ij-israfil/packages_apps_ViPER4AndroidFX" remote="ghub" revision="v4a" />
-
  <!-- Proton clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="ghub" revision="master" clone-depth="1" />
-
-<!-- sign_keys -->
- <project path="vendor/aosp-sign" name="ij-israfil/sign_keys" remote="ghub" revision="pixel" />
 
 <!-- packages_modules_Connectivity -->
  <remove-project name="packages_modules_Connectivity" />
  <project path="packages/modules/Connectivity" name="israfilbd/packages_modules_Connectivity" remote="ghub" revision="QPR3" />
-
-<!-- system_bpf -->
- <remove-project name="system_bpf" />
- <project path="system/bpf" name="LineageOS/android_system_bpf" remote="ghub" revision="lineage-21.0" />
-
-<!-- kernel_configs -->
- <remove-project name="kernel_configs" />
- <project path="kernel/configs" name="LineageOS/android_kernel_configs" remote="ghub" revision="lineage-21.0" />
-
-<!-- hardware_interfaces -->
- <remove-project name="hardware_interfaces" />
- <project path="hardware/interfaces" name="ProjectInfinity-X/hardware_interfaces" remote="ghub" revision="QPR3" />
 
 </manifest>
